@@ -1,0 +1,157 @@
+[
+  {
+    "id": "FRM-001",
+    "userId": "U-FRM-001",
+    "fullName": "Youcef Benali",
+    "email": "youcef.benali@demo.local",
+    "phone": "+213 555 010 303",
+    "preferredLanguage": "en",
+    "commune": "El Oued",
+    "agriculturalId": "DEMO-AGRI-001",
+    "proposedHoldingName": "Oasis Benali",
+    "proposedAreaHa": 8.5,
+    "mainCrops": [
+      "Tomato",
+      "Date palm"
+    ],
+    "supportingInfo": "Fictional demonstration farmer profile.",
+    "status": "APPROVED",
+    "createdAt": "2025-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "approvedAt": "2025-09-03T08:00:00.000Z",
+    "approvedBy": "U-DSA-001",
+    "notes": "Demo record only."
+  },
+  {
+    "id": "FRM-002",
+    "userId": "U-FRM-002",
+    "fullName": "Amina Saadi",
+    "email": "amina.saadi@demo.local",
+    "phone": "+213 555 010 404",
+    "preferredLanguage": "fr",
+    "commune": "Guemar",
+    "agriculturalId": "DEMO-AGRI-002",
+    "proposedHoldingName": "Palm Grove Saadi",
+    "proposedAreaHa": 12,
+    "mainCrops": [
+      "Tomato",
+      "Pepper"
+    ],
+    "status": "APPROVED",
+    "createdAt": "2025-09-03T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "approvedAt": "2025-09-04T08:00:00.000Z",
+    "approvedBy": "U-DSA-001"
+  },
+  {
+    "id": "FRM-003",
+    "userId": "U-FRM-003",
+    "fullName": "Brahim Haddadi",
+    "email": "brahim.haddadi@demo.local",
+    "phone": "+213 555 010 505",
+    "preferredLanguage": "ar",
+    "commune": "Debila",
+    "proposedHoldingName": "Debila Fields",
+    "proposedAreaHa": 6,
+    "mainCrops": [
+      "Onion"
+    ],
+    "status": "APPROVED",
+    "createdAt": "2025-09-04T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "approvedAt": "2025-09-05T08:00:00.000Z",
+    "approvedBy": "U-DSA-001"
+  },
+  {
+    "id": "FRM-004",
+    "userId": "U-FRM-004",
+    "fullName": "Salima Mansouri",
+    "email": "salima.mansouri@demo.local",
+    "phone": "+213 555 010 606",
+    "preferredLanguage": "ar",
+    "commune": "Robbah",
+    "proposedHoldingName": "Robbah Plot",
+    "proposedAreaHa": 4.5,
+    "mainCrops": [
+      "Alfalfa"
+    ],
+    "status": "APPROVED",
+    "createdAt": "2025-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "approvedAt": "2025-09-06T08:00:00.000Z",
+    "approvedBy": "U-DSA-001"
+  },
+  {
+    "id": "FRM-005",
+    "userId": "U-FRM-005",
+    "fullName": "Karim Zerguine",
+    "email": "karim.zerguine@demo.local",
+    "phone": "+213 555 010 707",
+    "preferredLanguage": "fr",
+    "commune": "Reguiba",
+    "proposedHoldingName": "Reguiba Farm",
+    "proposedAreaHa": 10,
+    "mainCrops": [
+      "Maize"
+    ],
+    "status": "APPROVED",
+    "createdAt": "2025-09-06T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "approvedAt": "2025-09-07T08:00:00.000Z",
+    "approvedBy": "U-DSA-001"
+  },
+  {
+    "id": "FRM-006",
+    "fullName": "Fatiha Boudjemaa",
+    "email": "fatiha.boudjemaa@demo.local",
+    "phone": "+213 555 010 909",
+    "preferredLanguage": "ar",
+    "commune": "El Oued",
+    "agriculturalId": "DEMO-AGRI-006",
+    "proposedHoldingName": "Small Oasis",
+    "proposedAreaHa": 2.5,
+    "mainCrops": [
+      "Tomato",
+      "Onion"
+    ],
+    "supportingInfo": "Fictional pending registration used to demonstrate the review workflow.",
+    "status": "PENDING",
+    "createdAt": "2026-10-18T09:15:00.000Z",
+    "updatedAt": "2026-10-18T09:15:00.000Z"
+  },
+  {
+    "id": "FRM-007",
+    "fullName": "Mohamed Lamine",
+    "email": "mohamed.lamine@demo.local",
+    "phone": "+213 555 010 910",
+    "preferredLanguage": "fr",
+    "commune": "Hassi Khelifa",
+    "proposedHoldingName": "Hassi Sand Plot",
+    "proposedAreaHa": 3.2,
+    "mainCrops": [
+      "Melon"
+    ],
+    "supportingInfo": "Fictional pending registration used to demonstrate the review workflow.",
+    "status": "PENDING",
+    "createdAt": "2025-10-19T11:40:00.000Z",
+    "updatedAt": "2025-10-19T11:40:00.000Z"
+  },
+  {
+    "id": "FRM-008",
+    "userId": "U-FRM-008",
+    "fullName": "Omar Kaddour",
+    "email": "omar.kaddour@demo.local",
+    "phone": "+213 555 010 808",
+    "preferredLanguage": "en",
+    "commune": "Guemar",
+    "proposedHoldingName": "Kaddour Plot",
+    "proposedAreaHa": 1.5,
+    "status": "SUSPENDED",
+    "createdAt": "2025-09-07T08:00:00.000Z",
+    "updatedAt": "2026-09-20T12:00:00.000Z",
+    "approvedAt": "2025-09-08T08:00:00.000Z",
+    "approvedBy": "U-DSA-001",
+    "suspendedAt": "2026-09-20T12:00:00.000Z",
+    "notes": "Fictional suspended record for status demonstration."
+  }
+]

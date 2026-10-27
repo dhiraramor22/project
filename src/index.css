@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-sand-50 font-sans text-ink-900 antialiased;
+  min-height: 100vh;
+}
+
+html[dir='rtl'] body {
+  @apply font-arabic;
+}
+
+::selection {
+  @apply bg-forest-200 text-forest-950;
+}
+
+*:focus-visible {
+  outline: 2px solid theme('colors.forest.600');
+  outline-offset: 2px;
+}
+
+/* Subtle scrollbars for the long local tables. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.ink.300') transparent;
+}
+
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: theme('colors.ink.300');
+  border-radius: 9999px;
+}
+
+/* Leaflet tiles must never be allowed to break the local layout. */
+.leaflet-container {
+  background: theme('colors.sand.100');
+  font-family: inherit;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+@media print {
+  body {
+    background: #fff !important;
+  }
+
+  aside,
+  header,
+  footer,
+  nav,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .lg\:ps-72 {
+    padding-inline-start: 0 !important;
+  }
+
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  .shadow-card,
+  .shadow-pop {
+    box-shadow: none !important;
+  }
+
+  .rounded-2xl,
+  .rounded-xl {
+    border-radius: 0 !important;
+  }
+
+  table {
+    font-size: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

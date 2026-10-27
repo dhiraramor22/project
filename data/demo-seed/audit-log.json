@@ -1,0 +1,184 @@
+[
+  {
+    "actorId": "U-DSA-001",
+    "actorName": "Amine Belhadj",
+    "role": "DSA_ADMIN",
+    "action": "DEMO_DATA_INITIALIZED",
+    "entityType": "system",
+    "entityId": "demo-seed",
+    "summary": "Fictional demonstration dataset initialized.",
+    "timestamp": "2026-09-01T07:00:00.000Z",
+    "id": "AUD-DEMO-001"
+  },
+  {
+    "actorId": "U-DSA-001",
+    "actorName": "Amine Belhadj",
+    "role": "DSA_ADMIN",
+    "action": "FARMER_CREATED_BY_ADMIN",
+    "entityType": "farmer",
+    "entityId": "FRM-005",
+    "summary": "Administrator created farmer Karim Zerguine and simulated an invitation.",
+    "timestamp": "2025-09-07T08:10:00.000Z",
+    "metadata": {
+      "farmerId": "FRM-005"
+    },
+    "id": "AUD-DEMO-002"
+  },
+  {
+    "actorId": "U-FRM-001",
+    "actorName": "Youcef Benali",
+    "role": "FARMER",
+    "action": "INVENTORY_RECEIPT",
+    "entityType": "inventoryMovement",
+    "entityId": "MOV-003",
+    "summary": "Receipt of 6 L recorded for Oasis Guard 250 EC (demo) at Oasis Benali.",
+    "timestamp": "2026-09-10T08:20:00.000Z",
+    "metadata": {
+      "holdingId": "HLD-001",
+      "productId": "PST-001",
+      "quantity": 6,
+      "unit": "L"
+    },
+    "id": "AUD-DEMO-003"
+  },
+  {
+    "actorId": "U-FRM-002",
+    "actorName": "Amina Saadi",
+    "role": "FARMER",
+    "action": "INVENTORY_RECEIPT",
+    "entityType": "inventoryMovement",
+    "entityId": "MOV-008",
+    "summary": "Receipt of 20 L recorded for Oasis Guard 250 EC (demo) at Palm Grove Saadi.",
+    "timestamp": "2026-09-10T08:30:00.000Z",
+    "metadata": {
+      "holdingId": "HLD-002",
+      "productId": "PST-001",
+      "quantity": 20,
+      "unit": "L"
+    },
+    "id": "AUD-DEMO-004"
+  },
+  {
+    "actorId": "U-FRM-001",
+    "actorName": "Youcef Benali",
+    "role": "FARMER",
+    "action": "TREATMENT_CREATED",
+    "entityType": "treatment",
+    "entityId": "TRT-001",
+    "summary": "Treatment recorded for Tomato at Oasis Benali using Oasis Guard 250 EC (demo).",
+    "timestamp": "2026-10-02T09:10:00.000Z",
+    "metadata": {
+      "holdingId": "HLD-001",
+      "cropId": "CRP-001",
+      "productId": "PST-001",
+      "quantity": 3.6,
+      "unit": "L"
+    },
+    "id": "AUD-DEMO-005"
+  },
+  {
+    "actorId": "U-FRM-001",
+    "actorName": "Youcef Benali",
+    "role": "FARMER",
+    "action": "TREATMENT_CREATED",
+    "entityType": "treatment",
+    "entityId": "TRT-003",
+    "summary": "Treatment recorded for Date palm at Oasis Benali using Palm Care Oil 95 (demo).",
+    "timestamp": "2026-10-05T10:20:00.000Z",
+    "metadata": {
+      "holdingId": "HLD-001",
+      "cropId": "CRP-003",
+      "productId": "PST-003",
+      "quantity": 10.5,
+      "unit": "L"
+    },
+    "id": "AUD-DEMO-006"
+  },
+  {
+    "actorId": "U-FRM-003",
+    "actorName": "Brahim Haddadi",
+    "role": "FARMER",
+    "action": "TREATMENT_CREATED",
+    "entityType": "treatment",
+    "entityId": "TRT-009",
+    "summary": "Treatment recorded with a missing reference dose for demonstration purposes.",
+    "timestamp": "2026-10-15T08:20:00.000Z",
+    "metadata": {
+      "holdingId": "HLD-003",
+      "cropId": "CRP-006",
+      "productId": "PST-006"
+    },
+    "id": "AUD-DEMO-007"
+  },
+  {
+    "actorId": "U-DSA-001",
+    "actorName": "Amine Belhadj",
+    "role": "DSA_ADMIN",
+    "action": "TFI_CONFIGURATION_UPDATED",
+    "entityType": "tfiConfiguration",
+    "entityId": "tfi-config",
+    "summary": "Provisional TFI demonstration configuration initialized at version 1.",
+    "timestamp": "2026-10-01T09:00:00.000Z",
+    "metadata": {
+      "normalization": "CROP_AREA"
+    },
+    "id": "AUD-DEMO-008"
+  },
+  {
+    "actorId": "U-DSA-001",
+    "actorName": "Amine Belhadj",
+    "role": "DSA_ADMIN",
+    "action": "REPORT_GENERATED",
+    "entityType": "report",
+    "entityId": "tfi-by-crop-season",
+    "summary": "Report \"tfi-by-crop-season\" generated with 8 row(s).",
+    "timestamp": "2026-10-16T12:15:00.000Z",
+    "metadata": {
+      "reportType": "tfi-by-crop-season",
+      "rowCount": 8
+    },
+    "id": "AUD-DEMO-009"
+  },
+  {
+    "actorId": "U-CHM-001",
+    "actorName": "Nadia Khelifi",
+    "role": "CHAMBER_ADMIN",
+    "action": "DEMO_SESSION_STARTED",
+    "entityType": "user",
+    "entityId": "U-CHM-001",
+    "summary": "Demo session started as CHAMBER_ADMIN. This is a role simulation, not secure authentication.",
+    "timestamp": "2026-10-17T08:30:00.000Z",
+    "metadata": {
+      "role": "CHAMBER_ADMIN"
+    },
+    "id": "AUD-DEMO-010"
+  },
+  {
+    "actorId": "U-FRM-001",
+    "actorName": "Youcef Benali",
+    "role": "FARMER",
+    "action": "DEMO_SESSION_STARTED",
+    "entityType": "user",
+    "entityId": "U-FRM-001",
+    "summary": "Demo session started as FARMER. This is a role simulation, not secure authentication.",
+    "timestamp": "2026-10-18T08:40:00.000Z",
+    "metadata": {
+      "role": "FARMER"
+    },
+    "id": "AUD-DEMO-011"
+  },
+  {
+    "actorId": "U-DSA-001",
+    "actorName": "Amine Belhadj",
+    "role": "DSA_ADMIN",
+    "action": "ALERT_REVIEWED",
+    "entityType": "alert",
+    "entityId": "LOW_STOCK:HLD-001:PST-001",
+    "summary": "Low-stock alert reviewed during the demonstration walkthrough.",
+    "timestamp": "2026-10-19T10:25:00.000Z",
+    "metadata": {
+      "category": "LOW_STOCK"
+    },
+    "id": "AUD-DEMO-012"
+  }
+]

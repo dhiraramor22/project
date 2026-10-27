@@ -1,0 +1,76 @@
+[
+  {
+    "id": "REG-001",
+    "farmerId": "FRM-001",
+    "submittedAt": "2025-09-02T08:00:00.000Z",
+    "status": "APPROVED",
+    "source": "SELF",
+    "reviewedBy": "U-DSA-001",
+    "reviewedAt": "2025-09-03T08:00:00.000Z",
+    "reviewNotes": "Demo approval."
+  },
+  {
+    "id": "REG-002",
+    "farmerId": "FRM-002",
+    "submittedAt": "2025-09-03T08:00:00.000Z",
+    "status": "APPROVED",
+    "source": "SELF",
+    "reviewedBy": "U-DSA-001",
+    "reviewedAt": "2025-09-04T08:00:00.000Z",
+    "reviewNotes": "Demo approval."
+  },
+  {
+    "id": "REG-003",
+    "farmerId": "FRM-003",
+    "submittedAt": "2025-09-04T08:00:00.000Z",
+    "status": "APPROVED",
+    "source": "SELF",
+    "reviewedBy": "U-DSA-001",
+    "reviewedAt": "2025-09-05T08:00:00.000Z",
+    "reviewNotes": "Demo approval."
+  },
+  {
+    "id": "REG-004",
+    "farmerId": "FRM-004",
+    "submittedAt": "2025-09-05T08:00:00.000Z",
+    "status": "APPROVED",
+    "source": "SELF",
+    "reviewedBy": "U-DSA-001",
+    "reviewedAt": "2025-09-06T08:00:00.000Z",
+    "reviewNotes": "Demo approval."
+  },
+  {
+    "id": "REG-005",
+    "farmerId": "FRM-005",
+    "submittedAt": "2025-09-06T08:00:00.000Z",
+    "status": "APPROVED",
+    "source": "ADMIN",
+    "reviewedBy": "U-DSA-001",
+    "reviewedAt": "2025-09-07T08:00:00.000Z",
+    "reviewNotes": "Administrator-created demo account; invitation simulated."
+  },
+  {
+    "id": "REG-006",
+    "farmerId": "FRM-006",
+    "submittedAt": "2026-10-18T09:15:00.000Z",
+    "status": "PENDING",
+    "source": "SELF"
+  },
+  {
+    "id": "REG-007",
+    "farmerId": "FRM-007",
+    "submittedAt": "2025-10-19T11:40:00.000Z",
+    "status": "PENDING",
+    "source": "SELF"
+  },
+  {
+    "id": "REG-008",
+    "farmerId": "FRM-008",
+    "submittedAt": "2025-09-07T08:00:00.000Z",
+    "status": "APPROVED",
+    "source": "SELF",
+    "reviewedBy": "U-DSA-001",
+    "reviewedAt": "2025-09-08T08:00:00.000Z",
+    "reviewNotes": "Demo approval; later suspended."
+  }
+]

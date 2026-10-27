@@ -1,0 +1,109 @@
+[
+  {
+    "id": "U-DSA-001",
+    "role": "DSA_ADMIN",
+    "fullName": "Amine Belhadj",
+    "email": "amine.belhadj@demo.local",
+    "phone": "+213 555 010 101",
+    "preferredLanguage": "en",
+    "status": "ACTIVE",
+    "demo": true,
+    "createdAt": "2024-01-10T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-CHM-001",
+    "role": "CHAMBER_ADMIN",
+    "fullName": "Nadia Khelifi",
+    "email": "nadia.khelifi@demo.local",
+    "phone": "+213 555 010 202",
+    "preferredLanguage": "fr",
+    "scopeCommunes": [
+      "Guemar",
+      "Debila",
+      "Robbah"
+    ],
+    "status": "ACTIVE",
+    "demo": true,
+    "createdAt": "2024-01-10T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-FRM-001",
+    "role": "FARMER",
+    "fullName": "Youcef Benali",
+    "email": "youcef.benali@demo.local",
+    "phone": "+213 555 010 303",
+    "preferredLanguage": "en",
+    "farmerId": "FRM-001",
+    "status": "ACTIVE",
+    "demo": true,
+    "createdAt": "2025-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-FRM-002",
+    "role": "FARMER",
+    "fullName": "Amina Saadi",
+    "email": "amina.saadi@demo.local",
+    "phone": "+213 555 010 404",
+    "preferredLanguage": "fr",
+    "farmerId": "FRM-002",
+    "status": "INVITED",
+    "demo": false,
+    "createdAt": "2025-09-03T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-FRM-003",
+    "role": "FARMER",
+    "fullName": "Brahim Haddadi",
+    "email": "brahim.haddadi@demo.local",
+    "phone": "+213 555 010 505",
+    "preferredLanguage": "ar",
+    "farmerId": "FRM-003",
+    "status": "INVITED",
+    "demo": false,
+    "createdAt": "2025-09-04T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-FRM-004",
+    "role": "FARMER",
+    "fullName": "Salima Mansouri",
+    "email": "salima.mansouri@demo.local",
+    "phone": "+213 555 010 606",
+    "preferredLanguage": "ar",
+    "farmerId": "FRM-004",
+    "status": "INVITED",
+    "demo": false,
+    "createdAt": "2025-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-FRM-005",
+    "role": "FARMER",
+    "fullName": "Karim Zerguine",
+    "email": "karim.zerguine@demo.local",
+    "phone": "+213 555 010 707",
+    "preferredLanguage": "fr",
+    "farmerId": "FRM-005",
+    "status": "INVITED",
+    "demo": false,
+    "createdAt": "2025-09-06T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "U-FRM-008",
+    "role": "FARMER",
+    "fullName": "Omar Kaddour",
+    "email": "omar.kaddour@demo.local",
+    "phone": "+213 555 010 808",
+    "preferredLanguage": "en",
+    "farmerId": "FRM-008",
+    "status": "SUSPENDED",
+    "demo": false,
+    "createdAt": "2025-09-07T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  }
+]

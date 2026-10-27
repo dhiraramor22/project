@@ -1,0 +1,66 @@
+[
+  {
+    "id": "PLT-001",
+    "holdingId": "HLD-001",
+    "name": "North field",
+    "areaHa": 5,
+    "soilType": "Sandy",
+    "notes": "Fictional demo plot.",
+    "createdAt": "2025-09-03T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PLT-002",
+    "holdingId": "HLD-001",
+    "name": "Palm rows",
+    "areaHa": 3.5,
+    "soilType": "Sandy",
+    "createdAt": "2025-09-03T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PLT-003",
+    "holdingId": "HLD-002",
+    "name": "East pivot",
+    "areaHa": 7,
+    "soilType": "Sandy loam",
+    "createdAt": "2025-09-04T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PLT-004",
+    "holdingId": "HLD-002",
+    "name": "West strip",
+    "areaHa": 5,
+    "soilType": "Sandy",
+    "createdAt": "2025-09-04T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PLT-005",
+    "holdingId": "HLD-003",
+    "name": "Main plot",
+    "areaHa": 6,
+    "soilType": "Sandy",
+    "createdAt": "2025-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PLT-006",
+    "holdingId": "HLD-004",
+    "name": "Plot A",
+    "areaHa": 4.5,
+    "soilType": "Sandy loam",
+    "createdAt": "2025-09-06T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PLT-007",
+    "holdingId": "HLD-005",
+    "name": "Pivot 1",
+    "areaHa": 10,
+    "soilType": "Sandy",
+    "createdAt": "2025-09-07T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  }
+]

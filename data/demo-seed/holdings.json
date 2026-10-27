@@ -1,0 +1,71 @@
+[
+  {
+    "id": "HLD-001",
+    "name": "Oasis Benali",
+    "ownerFarmerId": "FRM-001",
+    "wilaya": "El Oued",
+    "commune": "El Oued",
+    "address": "Fictional address, El Oued",
+    "latitude": 33.3562,
+    "longitude": 6.8724,
+    "totalCultivatedAreaHa": 8.5,
+    "status": "ACTIVE",
+    "coordinatesAreDemo": true,
+    "createdAt": "2025-09-03T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "HLD-002",
+    "name": "Palm Grove Saadi",
+    "ownerFarmerId": "FRM-002",
+    "wilaya": "El Oued",
+    "commune": "Guemar",
+    "address": "Fictional address, Guemar",
+    "latitude": 33.4318,
+    "longitude": 6.9421,
+    "totalCultivatedAreaHa": 12,
+    "status": "ACTIVE",
+    "coordinatesAreDemo": true,
+    "createdAt": "2025-09-04T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "HLD-003",
+    "name": "Debila Fields",
+    "ownerFarmerId": "FRM-003",
+    "wilaya": "El Oued",
+    "commune": "Debila",
+    "latitude": 33.5125,
+    "longitude": 6.9302,
+    "totalCultivatedAreaHa": 6,
+    "status": "ACTIVE",
+    "coordinatesAreDemo": true,
+    "createdAt": "2025-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "HLD-004",
+    "name": "Robbah Plot",
+    "ownerFarmerId": "FRM-004",
+    "wilaya": "El Oued",
+    "commune": "Robbah",
+    "latitude": 33.2784,
+    "longitude": 6.9056,
+    "totalCultivatedAreaHa": 4.5,
+    "status": "ACTIVE",
+    "coordinatesAreDemo": true,
+    "createdAt": "2025-09-06T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "HLD-005",
+    "name": "Reguiba Farm",
+    "ownerFarmerId": "FRM-005",
+    "wilaya": "El Oued",
+    "commune": "Reguiba",
+    "totalCultivatedAreaHa": 10,
+    "status": "ACTIVE",
+    "createdAt": "2025-09-07T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  }
+]

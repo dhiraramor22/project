@@ -1,0 +1,576 @@
+[
+  {
+    "id": "LOW_STOCK:HLD-001:PST-001",
+    "category": "LOW_STOCK",
+    "severity": "WARNING",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "inventory",
+    "entityId": "HLD-001:PST-001",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "productId": "PST-001",
+      "holding": "Oasis Benali",
+      "holdingId": "HLD-001",
+      "balance": 9.025,
+      "unit": "L",
+      "threshold": 25
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": true,
+    "resolved": false
+  },
+  {
+    "id": "LOW_STOCK:HLD-001:PST-003",
+    "category": "LOW_STOCK",
+    "severity": "WARNING",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "inventory",
+    "entityId": "HLD-001:PST-003",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Palm Care Oil 95 (demo)",
+      "productId": "PST-003",
+      "holding": "Oasis Benali",
+      "holdingId": "HLD-001",
+      "balance": 4.5,
+      "unit": "L",
+      "threshold": 20
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "LOW_STOCK:HLD-002:PST-004",
+    "category": "LOW_STOCK",
+    "severity": "WARNING",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "inventory",
+    "entityId": "HLD-002:PST-004",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Desert Root 50 SL (demo)",
+      "productId": "PST-004",
+      "holding": "Palm Grove Saadi",
+      "holdingId": "HLD-002",
+      "balance": 11,
+      "unit": "L",
+      "threshold": 12
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "LOW_STOCK:HLD-002:PST-005",
+    "category": "LOW_STOCK",
+    "severity": "CRITICAL",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "inventory",
+    "entityId": "HLD-002:PST-005",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Tomato Fortify WP (demo)",
+      "productId": "PST-005",
+      "holding": "Palm Grove Saadi",
+      "holdingId": "HLD-002",
+      "balance": 0,
+      "unit": "kg",
+      "threshold": 5
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "LOW_STOCK:HLD-003:PST-004",
+    "category": "LOW_STOCK",
+    "severity": "WARNING",
+    "farmerId": "FRM-003",
+    "holdingId": "HLD-003",
+    "entityType": "inventory",
+    "entityId": "HLD-003:PST-004",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Desert Root 50 SL (demo)",
+      "productId": "PST-004",
+      "holding": "Debila Fields",
+      "holdingId": "HLD-003",
+      "balance": 9,
+      "unit": "L",
+      "threshold": 12
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "LOW_STOCK:HLD-004:PST-003",
+    "category": "LOW_STOCK",
+    "severity": "WARNING",
+    "farmerId": "FRM-004",
+    "holdingId": "HLD-004",
+    "entityType": "inventory",
+    "entityId": "HLD-004:PST-003",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Palm Care Oil 95 (demo)",
+      "productId": "PST-003",
+      "holding": "Robbah Plot",
+      "holdingId": "HLD-004",
+      "balance": 7.5,
+      "unit": "L",
+      "threshold": 20
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "LOW_STOCK:HLD-005:PST-002",
+    "category": "LOW_STOCK",
+    "severity": "CRITICAL",
+    "farmerId": "FRM-005",
+    "holdingId": "HLD-005",
+    "entityType": "inventory",
+    "entityId": "HLD-005:PST-002",
+    "titleKey": "alerts.lowStock.title",
+    "data": {
+      "product": "Sahara Shield 80 WP (demo)",
+      "productId": "PST-002",
+      "holding": "Reguiba Farm",
+      "holdingId": "HLD-005",
+      "balance": 0,
+      "unit": "kg",
+      "threshold": 8
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "PENDING_REGISTRATION:REG-006",
+    "category": "PENDING_REGISTRATION",
+    "severity": "INFO",
+    "farmerId": "FRM-006",
+    "entityType": "registration",
+    "entityId": "REG-006",
+    "titleKey": "alerts.pendingRegistration.title",
+    "data": {
+      "farmer": "Fatiha Boudjemaa",
+      "commune": "El Oued"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "PENDING_REGISTRATION:REG-007",
+    "category": "PENDING_REGISTRATION",
+    "severity": "INFO",
+    "farmerId": "FRM-007",
+    "entityType": "registration",
+    "entityId": "REG-007",
+    "titleKey": "alerts.pendingRegistration.title",
+    "data": {
+      "farmer": "Mohamed Lamine",
+      "commune": "Hassi Khelifa"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-001",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "treatment",
+    "entityId": "TRT-001",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-002",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "treatment",
+    "entityId": "TRT-002",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-003",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "treatment",
+    "entityId": "TRT-003",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Palm Care Oil 95 (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-004",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "treatment",
+    "entityId": "TRT-004",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Sahara Shield 80 WP (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-005",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "treatment",
+    "entityId": "TRT-005",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-006",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "treatment",
+    "entityId": "TRT-006",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Sahara Shield 80 WP (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-007",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "treatment",
+    "entityId": "TRT-007",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Tomato Fortify WP (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-008",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-003",
+    "holdingId": "HLD-003",
+    "entityType": "treatment",
+    "entityId": "TRT-008",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Desert Root 50 SL (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "INCOMPLETE_TREATMENT:TRT-009",
+    "category": "INCOMPLETE_TREATMENT",
+    "severity": "WARNING",
+    "farmerId": "FRM-003",
+    "holdingId": "HLD-003",
+    "entityType": "treatment",
+    "entityId": "TRT-009",
+    "titleKey": "alerts.incompleteTreatment.title",
+    "data": {
+      "product": "Unverified Sample 45 SC",
+      "holding": "Debila Fields",
+      "date": "2026-10-15"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-010",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-004",
+    "holdingId": "HLD-004",
+    "entityType": "treatment",
+    "entityId": "TRT-010",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Palm Care Oil 95 (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "AREA_MISMATCH:TRT-010",
+    "category": "AREA_MISMATCH",
+    "severity": "WARNING",
+    "farmerId": "FRM-004",
+    "holdingId": "HLD-004",
+    "entityType": "treatment",
+    "entityId": "TRT-010",
+    "titleKey": "alerts.areaMismatch.title",
+    "data": {
+      "treated": 4.5,
+      "total": 4
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-011",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-005",
+    "holdingId": "HLD-005",
+    "entityType": "treatment",
+    "entityId": "TRT-011",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-012",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-005",
+    "holdingId": "HLD-005",
+    "entityType": "treatment",
+    "entityId": "TRT-012",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Sahara Shield 80 WP (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H01",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "treatment",
+    "entityId": "TRT-H01",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H02",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-001",
+    "holdingId": "HLD-001",
+    "entityType": "treatment",
+    "entityId": "TRT-H02",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Sahara Shield 80 WP (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H03",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "treatment",
+    "entityId": "TRT-H03",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H04",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "treatment",
+    "entityId": "TRT-H04",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Sahara Shield 80 WP (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H05",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-003",
+    "holdingId": "HLD-003",
+    "entityType": "treatment",
+    "entityId": "TRT-H05",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Desert Root 50 SL (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H06",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-004",
+    "holdingId": "HLD-004",
+    "entityType": "treatment",
+    "entityId": "TRT-H06",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Palm Care Oil 95 (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H07",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-005",
+    "holdingId": "HLD-005",
+    "entityType": "treatment",
+    "entityId": "TRT-H07",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  },
+  {
+    "id": "UNVERIFIED_REFERENCE_DOSE:TRT-H08",
+    "category": "UNVERIFIED_REFERENCE_DOSE",
+    "severity": "INFO",
+    "farmerId": "FRM-002",
+    "holdingId": "HLD-002",
+    "entityType": "treatment",
+    "entityId": "TRT-H08",
+    "titleKey": "alerts.unverifiedReferenceDose.title",
+    "data": {
+      "product": "Oasis Guard 250 EC (demo)",
+      "source": "Fictional demonstration label — not a verified registration"
+    },
+    "createdAt": "2026-10-20T10:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z",
+    "read": false,
+    "resolved": false
+  }
+]

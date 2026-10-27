@@ -1,0 +1,180 @@
+[
+  {
+    "id": "PST-001",
+    "commercialName": "Oasis Guard 250 EC (demo)",
+    "activeIngredient": "Fictional compound A (demonstration only)",
+    "category": "Insecticide",
+    "formulation": "Emulsifiable concentrate (EC)",
+    "manufacturer": "Demo Agro Supplies",
+    "intendedCrops": [
+      "Tomato",
+      "Pepper"
+    ],
+    "targetPests": [
+      "Fictional leaf pest complex"
+    ],
+    "referenceDose": 0.75,
+    "referenceDoseUnit": "L/ha",
+    "referenceSource": "Fictional demonstration label — not a verified registration",
+    "safetyInfo": "DEMONSTRATION DATA ONLY. This product does not exist. Always follow the approved local label and safety instructions.",
+    "preHarvestIntervalDays": 7,
+    "reEntryIntervalHours": 24,
+    "stockUnit": "L",
+    "lowStockThreshold": 25,
+    "verificationStatus": "DEMO",
+    "archived": false,
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PST-002",
+    "commercialName": "Sahara Shield 80 WP (demo)",
+    "activeIngredient": "Fictional compound B (demonstration only)",
+    "category": "Fungicide",
+    "formulation": "Wettable powder (WP)",
+    "manufacturer": "Demo Agro Supplies",
+    "intendedCrops": [
+      "Tomato",
+      "Potato"
+    ],
+    "targetPests": [
+      "Fictional foliar disease"
+    ],
+    "referenceDose": 1.2,
+    "referenceDoseUnit": "kg/ha",
+    "referenceSource": "Fictional demonstration label — not a verified registration",
+    "safetyInfo": "DEMONSTRATION DATA ONLY. This product does not exist. Always follow the approved local label and safety instructions.",
+    "preHarvestIntervalDays": 10,
+    "reEntryIntervalHours": 12,
+    "stockUnit": "kg",
+    "lowStockThreshold": 8,
+    "verificationStatus": "DEMO",
+    "archived": false,
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PST-003",
+    "commercialName": "Palm Care Oil 95 (demo)",
+    "activeIngredient": "Fictional mineral oil (demonstration only)",
+    "category": "Insecticide",
+    "formulation": "Emulsifiable concentrate (EC)",
+    "manufacturer": "Demo Agro Supplies",
+    "intendedCrops": [
+      "Date palm",
+      "Alfalfa"
+    ],
+    "targetPests": [
+      "Fictional scale insect"
+    ],
+    "referenceDose": 3,
+    "referenceDoseUnit": "L/ha",
+    "referenceSource": "Fictional demonstration label — not a verified registration",
+    "safetyInfo": "DEMONSTRATION DATA ONLY. This product does not exist. Always follow the approved local label and safety instructions.",
+    "preHarvestIntervalDays": 3,
+    "reEntryIntervalHours": 8,
+    "stockUnit": "L",
+    "lowStockThreshold": 20,
+    "verificationStatus": "DEMO",
+    "archived": false,
+    "createdAt": "2024-01-20T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PST-004",
+    "commercialName": "Desert Root 50 SL (demo)",
+    "activeIngredient": "Fictional compound C (demonstration only)",
+    "category": "Herbicide",
+    "formulation": "Soluble concentrate (SL)",
+    "manufacturer": "Sample Crop Care",
+    "intendedCrops": [
+      "Onion"
+    ],
+    "targetPests": [
+      "Fictional grass weeds"
+    ],
+    "referenceDose": 1.5,
+    "referenceDoseUnit": "L/ha",
+    "referenceSource": "Fictional demonstration label — not a verified registration",
+    "safetyInfo": "DEMONSTRATION DATA ONLY. This product does not exist. Always follow the approved local label and safety instructions.",
+    "preHarvestIntervalDays": 14,
+    "reEntryIntervalHours": 24,
+    "stockUnit": "L",
+    "lowStockThreshold": 12,
+    "verificationStatus": "DEMO",
+    "archived": false,
+    "createdAt": "2024-02-01T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PST-005",
+    "commercialName": "Tomato Fortify WP (demo)",
+    "activeIngredient": "Fictional compound D (demonstration only)",
+    "category": "Fungicide",
+    "formulation": "Wettable powder (WP)",
+    "manufacturer": "Sample Crop Care",
+    "intendedCrops": [
+      "Pepper"
+    ],
+    "targetPests": [
+      "Fictional fruit rot"
+    ],
+    "referenceDose": 2,
+    "referenceDoseUnit": "kg/ha",
+    "referenceSource": "Fictional demonstration label — not a verified registration",
+    "safetyInfo": "DEMONSTRATION DATA ONLY. This product does not exist. Always follow the approved local label and safety instructions.",
+    "preHarvestIntervalDays": 5,
+    "reEntryIntervalHours": 12,
+    "stockUnit": "kg",
+    "lowStockThreshold": 5,
+    "verificationStatus": "DEMO",
+    "archived": false,
+    "createdAt": "2024-02-05T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PST-006",
+    "commercialName": "Unverified Sample 45 SC",
+    "activeIngredient": "Unknown sample ingredient",
+    "category": "Insecticide",
+    "formulation": "Suspension concentrate (SC)",
+    "manufacturer": "Unverified sample supplier",
+    "intendedCrops": [
+      "Onion"
+    ],
+    "targetPests": [
+      "Unverified target"
+    ],
+    "safetyInfo": "DEMONSTRATION DATA ONLY. No verified reference dose or registration exists for this sample record. Do not use it as agronomic advice.",
+    "stockUnit": "L",
+    "lowStockThreshold": 5,
+    "verificationStatus": "UNVERIFIED",
+    "archived": false,
+    "createdAt": "2024-03-01T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  },
+  {
+    "id": "PST-007",
+    "commercialName": "Legacy Demo 20 WP (archived)",
+    "activeIngredient": "Fictional legacy compound",
+    "category": "Fungicide",
+    "formulation": "Wettable powder (WP)",
+    "manufacturer": "Demo Agro Supplies",
+    "intendedCrops": [
+      "Tomato"
+    ],
+    "targetPests": [
+      "Fictional target"
+    ],
+    "referenceDose": 1,
+    "referenceDoseUnit": "kg/ha",
+    "referenceSource": "Fictional demonstration label — not a verified registration",
+    "safetyInfo": "DEMONSTRATION DATA ONLY. Archived sample record.",
+    "stockUnit": "kg",
+    "lowStockThreshold": 5,
+    "verificationStatus": "DEMO",
+    "archived": true,
+    "createdAt": "2023-05-01T08:00:00.000Z",
+    "updatedAt": "2026-10-20T10:00:00.000Z"
+  }
+]

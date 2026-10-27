@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+coverage/
+
+# runtime application data (user-created records and backups)
+/data/*.json
+/data/backups/
+/data/corrupt/
+/data/.journal.json
+/data/.tmp/
+!/data/demo-seed/
+
+# local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+logs/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# test artifacts
+*.tsbuildinfo

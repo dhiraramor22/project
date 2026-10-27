@@ -1,0 +1,11 @@
+{
+  "id": "tfi-config",
+  "version": 1,
+  "strategy": "DOSE_RATIO_AREA_WEIGHTED",
+  "normalization": "CROP_AREA",
+  "requireVerifiedDose": false,
+  "allowDemoReferenceDoses": true,
+  "updatedAt": "2026-10-20T10:00:00.000Z",
+  "updatedBy": "U-DSA-001",
+  "notes": "Provisional demonstration methodology (demo-1.0). Not an officially mandated Algerian TFI formula. Reference doses in this dataset are fictional. Configure only after institutional confirmation."
+}

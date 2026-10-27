@@ -1,0 +1,47 @@
+{
+  "id": "settings",
+  "applicationName": "El Oued Pesticide Management Platform",
+  "institution": "DSA El Oued — local prototype",
+  "province": "El Oued",
+  "wilaya": "El Oued",
+  "defaultLanguage": "en",
+  "lowStockThreshold": 10,
+  "allowSelfRegistration": true,
+  "demoMode": true,
+  "mapCenter": {
+    "lat": 33.3683,
+    "lng": 6.8674,
+    "zoom": 10
+  },
+  "communes": [
+    "El Oued",
+    "Guemar",
+    "Debila",
+    "Reguiba",
+    "Robbah",
+    "Hassi Khelifa",
+    "Trifaoui",
+    "Magrane",
+    "Sidi Aoun",
+    "Douar El Ma"
+  ],
+  "cropCategories": [
+    "Vegetables",
+    "Fodder",
+    "Cereals",
+    "Fruit trees",
+    "Industrial crops",
+    "Other"
+  ],
+  "cropSuggestions": [
+    "Tomato",
+    "Potato",
+    "Onion",
+    "Date palm",
+    "Alfalfa",
+    "Maize",
+    "Melon",
+    "Pepper"
+  ],
+  "updatedAt": "2026-10-20T10:00:00.000Z"
+}
