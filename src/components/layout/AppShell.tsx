@@ -587,8 +587,16 @@ export function AppShell({ children }: { children?: ReactNode }) {
 
         <div className="border-b border-clay-200/70 bg-clay-50/80 px-4 py-2 print:hidden sm:px-6">
           <div className="mx-auto flex max-w-[1500px] flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-clay-900">
-            <span className="font-bold uppercase tracking-wide">{t('dashboard.demoBannerTitle')}</span>
-            <span className="hidden sm:inline">{t('app.roleSimulation')}</span>
+            <span className="font-bold uppercase tracking-wide">
+              {((import.meta as any).env?.VITE_PREVIEW_MODE === 'true') || (typeof window !== 'undefined' && (window.location.hostname.includes('.vercel.app') || window.location.hostname.includes('.vercel.com')))
+                ? 'DEMO PREVIEW MODE - UI inspection only'
+                : t('dashboard.demoBannerTitle')}
+            </span>
+            <span className="hidden sm:inline">
+              {((import.meta as any).env?.VITE_PREVIEW_MODE === 'true') || (typeof window !== 'undefined' && (window.location.hostname.includes('.vercel.app') || window.location.hostname.includes('.vercel.com')))
+                ? 'No backend connected. Changes are not persisted. Not secure authentication.'
+                : t('app.roleSimulation')}
+            </span>
             <span className="ms-auto inline-flex items-center gap-1.5">
               <Badge tone={roleTone(data.role)}>
                 {t(ROLE_DEFINITIONS[data.role].labelKey)}

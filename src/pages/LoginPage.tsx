@@ -125,8 +125,12 @@ export function LoginPage() {
               </AlertBanner>
             ) : null}
 
-            <AlertBanner tone="warning" title={t('auth.demoWarning')} className="mb-5">
-              <p>{t('auth.noPassword')}</p>
+            <AlertBanner tone="warning" title={((import.meta as any).env?.VITE_PREVIEW_MODE === 'true') || (typeof window !== 'undefined' && (window.location.hostname.includes('.vercel.app') || window.location.hostname.includes('.vercel.com'))) ? 'DEMO PREVIEW MODE' : t('auth.demoWarning')} className="mb-5">
+              <p>
+                {((import.meta as any).env?.VITE_PREVIEW_MODE === 'true') || (typeof window !== 'undefined' && (window.location.hostname.includes('.vercel.app') || window.location.hostname.includes('.vercel.com')))
+                  ? 'UI inspection only - No backend connected. Changes are not persisted. This is not secure authentication.'
+                  : t('auth.noPassword')}
+              </p>
             </AlertBanner>
 
             <div className="grid gap-3">
